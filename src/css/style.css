@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
+  cursor: url('../img/hammer.webp'), auto;  
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 520px;
+  height: 520px;
+  margin: 20px;
+}
+
+.wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;  
+  background-color: #dfd0c7;
+  border: 2px solid #525252;
+  border-radius: 50%;
+}
+
+.statistics {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
